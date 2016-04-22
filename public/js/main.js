@@ -27,10 +27,7 @@ $(document).ready(function() {
             var $welcome = $('#welcome-slider');
             $welcome.vegas({
                 slides: [
-                    { src: '//assets.zaahir.ca/img/slider/hairpin.jpg' },
-                    { src: '//assets.zaahir.ca/img/slider/water.jpg'   },
-                    { src: '//assets.zaahir.ca/img/slider/hotel-pool.jpg'  },
-                    { src: '//assets.zaahir.ca/img/slider/record-player.jpg'  }
+                    { src: '//floating-basin-41540.herokuapp.com/img/slider/fishing.jpg' }
                 ],
                 overlay: '//assets.zaahir.ca/img/overlays/06.png',
                 timer: false
