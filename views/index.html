@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Personal Website{% endblock %}
+
+{% block content %}
+
+<!-- welcome begins -->
+<section data-anchor="page-welcome" class="page-welcome section">
+    <div id="welcome-slider" class="welcome-slider">
+        <ul class="slider-controls">
+            <li>
+                <a id="vegas-next" class="next" href="javascript:void(0)"></a>
+            </li>
+            <li>
+                <a id="vegas-prev" class="prev" href="javascript:void(0)"></a>
+            </li>
+        </ul>
+
+        <div class="container">
+            <div class="row">
+                <header class="centered">
+                    <h1 class="name">Thien Luu</h1>
+
+                </header>
+                <a href="#page-profile" class="btn btn-default more-info"><i class="fa fa-chevron-down"></i> More Info</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- welcome ends -->
+
+<!-- profile begins -->
+<section data-anchor="page-profile" class="page-profile section">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="spacer"></div>
+            <p class="section-subtitle">
+                Hi. My name is Thien Luu.<br>
+                ABOUT ME FILLER
+            </p>
+        </header>
+        <div class="profile-photo centered">
+            <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-0/p75x225/12994357_973549329360200_6782125688628732304_n.jpg?oh=affae90e93b1f95515f1340d7bc06ee2&oe=57759B79" alt="profile photo" width="100%" />
+        </div>
+        <p class="centered text-center">ABOUT ME SUB FILLER. </p>
+    </div>
+</section>
+<!-- profile ends -->
+
+<!-- contact begins -->
+<section data-anchor="page-contact" class="page-contact section">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title"><span>Contact</span></h2>
+            <div class="spacer"></div>
+            <p class="section-subtitle">Send me an email, or find me online</p>
+        </header>
+        <ul class="social-icons text-center">
+            <li>
+                <a href="mailto:tn.luu1@gmail.com" class="btn btn-round btn-clear btn-email"><img src="//assets.zaahir.ca/img/icons/email.png"/></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/zmoolla" class="btn btn-round btn-clear btn-twitter"><img src="//assets.zaahir.ca/img/icons/twitter.png"/></a>
+            </li>
+            <li>
+                <a href="https://github.com/moollaza" class="btn btn-round btn-clear btn-github"><img src="//assets.zaahir.ca/img/icons/github.png"/></a>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- contact ends -->
+
+<div class="footer">
+    <p class="text-center">&copy; 2016 Thien Luu | Icons by <a class="no-color" href="https://icons8.com">Icons8</a></p>
+</div>
+
+
+{% endblock %}
