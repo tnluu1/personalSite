@@ -8,6 +8,12 @@ router.get('/', function(req, res) {
   res.render('index.html', { title: 'Thien Luu' });
 });
 
+/* GET projects page. */
+router.get('/projects', function(req, res) {
+  res.render('projects.html', { title: 'Applications' });
+});
+
+
 /* GET pdf */
 router.get('/asset', function(request, response){
   var tempFile="//floating-basin-41540.herokuapp.com/doc/GenResume03.26.pdf";
